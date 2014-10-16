@@ -1,0 +1,55 @@
+form {
+	label, input, textarea {
+		display:block
+	}	
+
+	* {
+		font-size:1.5em;
+	}
+
+	label {
+		font-size:1em;
+		margin-top:10px;
+		margin-bottom:10px;
+		font-weight: 100;
+		color: $grey;
+		text-transform: uppercase;
+	}
+
+	input, textarea {
+		border:0;
+		border-bottom:2px solid $grey;
+		outline-style:none;
+		padding:3px 5px;
+		line-height:1em;		
+	}
+
+	input {
+	
+		font-size:1.3em;
+		margin-bottom:30px;
+
+	}
+
+input, submit {
+}
+	textarea {
+		width:400px;
+		font-size: 1.4em;
+		height:4em;
+		color: $green;
+	}
+}
+
+.submit {
+	background: white;
+	color: $green;
+	text-align: left;
+	margin-top: 30px;
+	padding: 10px;
+	
+	&:hover {
+		background-color: $green;
+		color: white;
+	}
+}

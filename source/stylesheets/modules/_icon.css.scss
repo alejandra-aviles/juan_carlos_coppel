@@ -1,0 +1,8 @@
+[data-icon-after]:after {
+  font-family: 'Pictos Custom';
+  content: attr(data-icon-after);
+  speak: none; /* Not to be trusted, but hey. */
+  text-transform: none;
+  font-style: normal;
+  margin-left:5px;
+}

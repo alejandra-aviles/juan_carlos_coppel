@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <base href="<%= basepath %>" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= data.page.title || "Juan Carlos Coppel" %></title>
+    <script src="//use.typekit.net/fbx3ssx.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <link href="stylesheets/screen.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body class="<%= page_classes %>">
+    <div class="container">
+
+      <div class="nav-bar">
+        <a href="" class="logo">Juan Carlos Coppel</a>
+        <ul class="nav">
+          <li><a class="sietecerros" href="sietecerros">siete cerros</a></li>
+          <li><a class="lagrieta" href="lagrieta">la grieta</a></li>
+        </ul>
+      </div>
+
+      <div class="main"> <%= yield %> </div>
+      
+      <div class="nav-bar-bottom">
+        <div class="nav-bottom">
+          <a class="cv" href="cv">biografía</a>
+          <span>juancarlos@agroexport.com.mx</span>
+          <a href="http://instagram.com/kopelmx" target="istagram">
+            <span class="fa fa-instagram"></span>
+          </a>
+          <a href="https://www.facebook.com/juancarloscoppel" target="facebook">
+            <span class="fa fa-facebook"></span>
+          </a>
+        </div>
+        <div class="footer">
+          <a target="Alecamp." href="http://alecamp.mx/">Hecho por Alecamp.</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="javascripts/application.js" type="text/javascript"></script>
+</body>
+</html>

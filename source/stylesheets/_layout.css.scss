@@ -1,0 +1,126 @@
+.container {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-bar{
+	margin-top:30px;
+	width: 100%;
+	padding: 8px 0px 5px 0px;
+	box-sizing: border-box;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: rgba(136,136,136,1);
+	overflow: hidden;
+	
+	.logo {
+		float: left;
+		text-transform: uppercase;
+		font-size: 1em;
+	}
+
+	.nav {
+		float: right;
+		li {
+			display: inline-block;
+			margin-left: 20px;
+
+		}
+	}
+}
+
+body.lagrieta {
+	.nav-bar {
+		.lagrieta {
+			color:black;
+		}
+	}
+}
+
+body.sietecerros {
+	.nav-bar {
+		.sietecerros {
+			color:black;
+		}
+	}
+}
+
+body.cv {
+	.nav-bar-bottom {
+		.cv {
+			color:black;
+			font-weight: 800;
+		}
+	}
+}
+
+body.contacto {
+	.nav-bar-bottom {
+		.contacto {
+			color:black;
+			font-weight: 800;
+		}
+	}
+}
+
+.nav-bar-bottom{
+	font-size: 0.8em;
+
+	.nav-bottom {
+		float: right;
+		display: inline-block;
+		margin-left: 20px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-size: 0.9em;
+		text-align: right;
+		color: rgba(136,136,136,1);
+
+		* {
+			vertical-align: middle;	
+			line-height: 34px;
+		}
+
+		.cv {
+			margin-right:20px;
+		}
+	}
+}
+
+a:hover {
+	color:black;
+}
+
+.img-proyect{
+	width:100%;
+}
+
+.main {
+	height: 720px;
+}
+
+.info {
+	margin-top: 40px;
+	display: inline-block;
+	padding-right: 670px;
+	h4 {
+		margin-bottom:20px;
+		font-size: 0.8em;
+	}
+}
+
+.contacto-jc {
+	display: inline-block;
+	padding-top: 20px;
+
+}
+
+.footer {
+	padding-top: 100px;
+	font-size: 0.7em;
+	clear: both;
+	width: 100%;
+	text-align: right;
+}

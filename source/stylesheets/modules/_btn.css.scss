@@ -1,0 +1,23 @@
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	color:#777777;
+	font-family:"adelle-sans";
+	font-size:13px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+	padding:3px 10px;
+
+}
+.btn:hover {
+	background-color:#E7E7E7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}

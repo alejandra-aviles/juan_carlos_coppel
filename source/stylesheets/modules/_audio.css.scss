@@ -1,0 +1,119 @@
+.audiojs {
+  width:100%;
+  background-image: none;
+  box-shadow: none;
+
+  .play-pause {
+    width:40px;
+  }
+
+  .play {
+    background: url("imagenes/vendor/audio/player-graphics.gif") -0px -1px no-repeat;
+    background-image: #ccc;
+  }
+
+  .scrubber {
+    width: 96%;
+    .progress, .loaded {
+      background-image: none;
+      height:36px;
+    }
+  }
+
+  .time {
+    float:right;
+  }
+}
+
+
+/* flat style */
+
+.audiojs {
+  background: rgb(35,35,35);
+  position: relative;
+  overflow: hidden;
+
+   * {
+    text-shadow:none;
+   }
+
+  .loaded {
+    background: none;
+  }
+
+  .progress {
+    background: rgb(248,77,77);
+  }
+}
+
+.audiojs .play-pause {
+  border:none;
+  background: rgb(248,77,77);
+}
+
+.audiojs .scrubber {
+  margin:0;
+  height: 36px;
+  background: rgb(236,236,236);
+  border: none;
+}
+
+.audiojs .time {
+  background: none;
+  position: absolute;
+  right: -20px;
+  color: rgb(73,73,73);
+  font-family: 'helvetica';
+  border: none;
+  text-shadow: none;
+  font-size: 1.1em;
+  margin-top:1px;
+  letter-spacing: 0.1em;
+  z-index:100;
+
+  em {
+    margin-right: 20px;
+    color: rgb(73,73,73);
+  }
+}
+
+.audiojs .duration {
+  display: none;
+
+}
+
+.audiojs .play-pause p {
+  background: none;
+  font-size: 1em;
+}
+
+.audiojs .play {
+  font-size: 1em;
+}
+
+.audiojs .play-pause p:after {
+  font-family: 'fontawesome'; 
+  display: block;
+}
+
+.audiojs .play:after {
+  content: '\f04b';
+  margin: 8px 10px;
+}
+
+.audiojs .pause:after {
+  content: '\f04c';
+  margin: 8px 10px;
+}
+
+.audiojs .loading:after {
+  content: '\f01e';
+  margin: 8px 10px;
+}
+
+.audiojs .error:after {
+  content: '\f119';
+  margin: 8px 10px;
+}
+
+

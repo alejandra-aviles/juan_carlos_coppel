@@ -1,0 +1,54 @@
+.slider {
+	margin-bottom: 30px;
+	height:690px;
+}
+
+.slider > * {
+	display: none;
+}
+
+[data-slider-index] {
+	width:30px;
+	text-align: center;
+	display: inline-block;
+	color: grey;
+	font-size: 0.8em;
+}
+
+[data-slider-action] {
+	font-size: 1.6em;
+	cursor: pointer;
+	font-weight: 100;
+
+}
+
+.slider .introduction {
+	.column {
+		height: 683px;
+	}
+
+	.text {
+		position: absolute;
+		bottom: 0;
+		margin-right: 50px;
+
+		p {
+		font-size: 0.7em;
+		letter-spacing: 0.4px;
+		color: rgba(75,75,75,1);
+		padding-bottom: 10px;
+		}		
+	}
+
+	.cover-image {
+		overflow: hidden;
+	}
+}
+
+.slider-controls {
+	float:left;
+}
+
+.slider-controls > * {
+	vertical-align: middle;
+}

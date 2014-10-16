@@ -1,0 +1,25 @@
+.columns {
+	@include group;
+	.column {
+		float:left;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.column-medios {
+		width:80%;
+
+		p{
+			padding-top: 50px;
+		}
+
+	}
+
+	.column-tercio {
+		width:33.333%;
+	}
+
+	.column-dos-tercios {
+		width:66.666%;
+	}
+}

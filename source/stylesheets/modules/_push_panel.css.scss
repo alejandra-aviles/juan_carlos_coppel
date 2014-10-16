@@ -1,0 +1,22 @@
+.push-right-panel, .push-right-main {
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.push-right-panel {
+	margin-left:-190px;
+}
+
+.push-right-main {
+	margin-left:0px;
+}
+
+.push-right-panel.open {
+	margin-left:0;
+}
+
+.push-right-main.open {
+	margin-left:190px;
+}
+
